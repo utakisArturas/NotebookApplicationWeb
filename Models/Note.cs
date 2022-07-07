@@ -20,6 +20,7 @@ namespace NotebookApplicationWeb.Models
         public Category Category { get; set; }
         [NotMapped]
         public int IdForQuery { get; set; }
+        public User User { get; set; }
 
 
     }

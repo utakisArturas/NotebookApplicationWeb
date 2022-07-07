@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\utaki\\Documents\\Code\\Notebook\\NotebookApplicationWeb\\NotebookApplicationWeb.csproj": {}
+    "C:\\Users\\utaki\\OneDrive\\Documents\\GitHub\\Notebook\\NotebookApplicationWeb\\NotebookApplicationWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\utaki\\Documents\\Code\\Notebook\\NotebookApplicationWeb\\NotebookApplicationWeb.csproj": {
+    "C:\\Users\\utaki\\OneDrive\\Documents\\GitHub\\Notebook\\NotebookApplicationWeb\\NotebookApplicationWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\utaki\\Documents\\Code\\Notebook\\NotebookApplicationWeb\\NotebookApplicationWeb.csproj",
+        "projectUniqueName": "C:\\Users\\utaki\\OneDrive\\Documents\\GitHub\\Notebook\\NotebookApplicationWeb\\NotebookApplicationWeb.csproj",
         "projectName": "NotebookApplicationWeb",
-        "projectPath": "C:\\Users\\utaki\\Documents\\Code\\Notebook\\NotebookApplicationWeb\\NotebookApplicationWeb.csproj",
+        "projectPath": "C:\\Users\\utaki\\OneDrive\\Documents\\GitHub\\Notebook\\NotebookApplicationWeb\\NotebookApplicationWeb.csproj",
         "packagesPath": "C:\\Users\\utaki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\utaki\\Documents\\Code\\Notebook\\NotebookApplicationWeb\\obj\\",
+        "outputPath": "C:\\Users\\utaki\\OneDrive\\Documents\\GitHub\\Notebook\\NotebookApplicationWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\utaki\\AppData\\Roaming\\NuGet\\NuGet.Config",

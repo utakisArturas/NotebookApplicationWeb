@@ -11,5 +11,6 @@ namespace NotebookApplicationWeb.Models
         public byte[] PasswordHash { get; set; }
         [Key]
         public Guid UserId { get; set; }
+        ICollection<Note> Notes { get; set; }
     }
 }
