@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Note>
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h1>Notes</h1>
+        </div>
+        <div class="col-6 text-end">
+        <a asp-controller="Note" asp-action="Create" class="btn btn-primary"  >Create Note</a>
+    </div>
+</div>
+<br />
+<table class="table table-bordered table-striped" style="width:100%" >
+    <thead>
+        <tr>
+            <th>
+                Title
+            </th>
+            <th>
+                Description
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var obj in Model)
+        {
+            <tr>
+                <td style="width:50%">
+                    @obj.Title
+                </td>
+                <td style="width:50%">
+                    @obj.Description
+                </td>
+                <td>
+                    <div class="w-75 btn-group" role="group">
+                        <a asp-controller="Note" asp-action="Edit" asp-route-id="@obj.Id" class="btn btn-primary mx-2"><i >Edit</i></a>
+                    </div>
+                </td>
+                <td>
+                    <div class="w-75 btn-group" role="group">
+                        <a asp-controller="Note" asp-action="DeleteNote" asp-route-id="@obj.Id" class="btn btn-primary mx-2"><i >Delete</i></a>
+                    </div>
+                </td>
+                <td>
+                    <div class="w-75 btn-group" role="group">
+                        <a asp-controller="Note" asp-action="ShowImage" asp-route-id="@obj.Id" class="btn btn-primary mx-2"><i >Image</i></a>
+                    </div>
+                                    <td>
+                    <div class="w-75 btn-group" role="group">
+                        <a asp-controller="Note" asp-action="ShowCategory" asp-route-id="@obj.Id" class="btn btn-primary mx-2"><i >Category</i></a>
+                    </div>
+                </td>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>
